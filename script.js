@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function generateImage(prompt) {
-    const apiKey = 'YOUR_OPENAI_API_KEY';
+    const apiKey = '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';
     const apiUrl = 'https://api.openai.com/v1/images/generations';
 
     const response = await fetch(apiUrl, {
